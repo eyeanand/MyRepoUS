@@ -1,1 +1,7 @@
 THis is my test Git repo
+The files gpio.c and common.h contain source for accessing GPIO PINS of a linux powered board such as Raspberry pi.
+We just need to supply the appropriate pin number by looking at the Board SOC's Technical reference manual.
+
+For eg: gpio_direction(int Pin_number, int direction);
+
+Where direction = 1 (IN) , 0 (OUT).
